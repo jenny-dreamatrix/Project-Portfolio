@@ -1,0 +1,300 @@
+@font-face {
+  font-family: FjallaOne;
+  src: url(./FjallaOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: DidactGothic;
+  src: url(./DidactGothic-Regular.ttf);
+}
+
+@font-face {
+  font-family: WorkSans;
+  src: url(./WorkSans-VariableFont_wght.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h3 {
+  font-family: "DidactGothic";
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h2,
+h4,
+h5,
+p,
+.header-h4,
+.email {
+  font-family: "WorkSans";
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 130px;
+  margin-bottom: 60px;
+}
+
+h2 {
+  font-size: 160px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 112px;
+  margin-bottom: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  letter-spacing: -0.05em;
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-size: 180px;
+  letter-spacing: -0.1em;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+p {
+  font-size: 22px;
+  letter-spacing: 0.01em;
+  line-height: 180%;
+  color: #666666;
+  width: 700px;
+  margin: 0px 100px 70px 640px;
+}
+
+/* styles für header */
+
+header {
+  width: 720px;
+  height: 1650px;
+  margin: 20px 360px 0px 360px;
+  text-align: center;
+}
+
+img {
+  margin-bottom: 118px;
+}
+
+.header-h4 {
+  font-size: 20px;
+  margin-bottom: 60px;
+  color: black;
+}
+
+/* allgemeine styles für main */
+
+.section-dark-01,
+.section-dark-03 {
+  height: 826px;
+  padding: 150px 0 0 220px;
+}
+
+.section-white-02,
+.section-white-04 {
+  height: 1056px;
+  padding: 250px 0 0 220px;
+}
+
+.section-dark-01 {
+  background: url(./portfolio2.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.section-white-02 {
+  background: url(./portfolio3.png) no-repeat center;
+  background-size: cover;
+}
+
+.section-dark-03 {
+  background: url(./portfolio4.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.section-white-04 {
+  background: url(./portfolio5.png) no-repeat center;
+  background-size: cover;
+}
+
+.button-div {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+}
+
+/* schriften stylen für section in main */
+
+.button,
+.number {
+  font-family: "FjallaOne";
+  text-decoration: none;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 16px 26px;
+}
+
+.number {
+  font-size: 165px;
+  letter-spacing: -0.02em;
+  margin: 0 120px 100px 900px;
+}
+
+.h4-untertitel {
+  margin-bottom: 96px;
+}
+
+/* schriftfarben stylen für dark sections */
+
+.section-dark-03 h3,
+.section-dark-01 h3 {
+  color: #ffffff;
+}
+
+.section-dark-03 h4,
+.section-dark-01 h4 {
+  color: #9e9e9e;
+}
+
+.section-dark-03 .button,
+.section-dark-01 .button {
+  color: #ffffff;
+  border: 2px solid #9e9e9e;
+}
+
+.section-dark-03 .number,
+.section-dark-01 .number {
+  color: #9e9e9e;
+  opacity: 0.2;
+}
+
+/* schriftfarben stylen für white sections */
+
+.section-white-02 h4,
+.section-white-04 h4,
+.section-white-02 .number,
+.section-white-04 .number {
+  color: #666666;
+}
+
+.section-white-02 .button,
+.section-white-04 .button {
+  color: #000000;
+  border: 2px solid black;
+}
+
+/* hover effekt für dark sections */
+
+.section-dark-01 .button-div:hover .number,
+.section-dark-03 .button-div:hover .number {
+  color: white;
+  opacity: 100;
+}
+
+.section-dark-01 .button:hover,
+.section-dark-03 .button:hover {
+  color: black;
+  background-color: white;
+}
+
+.section-dark-01 .button-div .number:hover,
+.section-dark-03 .button-div .number:hover {
+  color: #9e9e9e;
+  opacity: 0.2;
+}
+
+/* hover effekt für white sections */
+
+.section-white-02 .button-div:hover .number,
+.section-white-04 .button-div:hover .number {
+  color: black;
+  opacity: 100;
+}
+
+.section-white-02 .button:hover,
+.section-white-04 .button:hover {
+  color: white;
+  background-color: black;
+}
+
+.section-white-02 .button-div .number:hover,
+.section-white-04 .button-div .number:hover {
+  color: #666666;
+}
+
+/* styles für letzten abschnitt im main */
+
+article {
+  height: 931px;
+  background-color: black;
+  padding: 130px 0 0 0;
+}
+
+.email {
+  font-size: 60px;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 0 0 640px;
+}
+
+.email:hover {
+  text-decoration: underline;
+  color: #9e9e9e;
+}
+
+/* styles für den footer */
+
+footer {
+  height: 1160px;
+  width: 702px;
+  margin: 230px 369px 130px 369px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li a {
+  font-family: "DidactGothic";
+  font-size: 160px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  margin-bottom: 150px;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+/* styles für herzchen */
+
+.heart {
+  animation: beat 1.5s ease 0s infinite;
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2.1);
+  }
+}
